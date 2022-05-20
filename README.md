@@ -2,4 +2,4 @@
 
 ## https://booksearch-webapp.netlify.app/
 
-![alt text](https://github.com/kadirkara22/getir-react/blob/main/images/booksearch.PNG)
+![alt text](https://github.com/kadirkara22/BookSearch-App/blob/main/images/booksearch.PNG)
