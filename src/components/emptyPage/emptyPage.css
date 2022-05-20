@@ -1,0 +1,8 @@
+.searchInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchInput a {
+  font-size: 100px;
+}
