@@ -1,0 +1,9 @@
+.book-container {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 0.5fr));
+  grid-gap: 20px;
+  box-sizing: border-box;
+}
