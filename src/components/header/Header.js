@@ -9,7 +9,7 @@ const Header = ({ setSearchBook }) => {
     }
     const handleKeyPress = (e) => {
         if (e.key === "Enter") {
-            axios.get(`https://www.googleapis.com/books/v1/volumes?q=' + book + '&key=AIzaSyBwyJg2Rh_c1jVZFOT8CylvPlL5UuGRFOI` + '&maxResults=40')
+            axios.get(`https://www.googleapis.com/books/v1/volumes?q=' + book + '&key=${process.env.REACT_APP_BOOK_API_KEY}` + '&maxResults=40')
                 .then(res => setSearchBook(res.data.items))
                 .catch(err => console.log(err))
 
