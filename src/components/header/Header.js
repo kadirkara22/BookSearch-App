@@ -1,8 +1,6 @@
 import axios from 'axios';
 import React, { useState } from 'react'
 import './header.css'
-
-
 const Header = ({ setSearchBook }) => {
     const [book, setBook] = useState("");
 
