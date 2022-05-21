@@ -8,7 +8,6 @@ import Header from './components/header/Header';
 
 function App() {
   const [searchBook, setSearchBook] = useState([])
-  console.log(searchBook)
   return (
     <div className="app">
       <Header setSearchBook={setSearchBook} />
